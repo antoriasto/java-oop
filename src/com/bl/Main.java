@@ -106,7 +106,9 @@ public class Main {
 				} else {
 					System.err.println(newLine + "Data Dosen Honorer Kosong.");
 				}
-				
+			
+			} else if (pilihan.equals("exit")){
+				exit = true;
 			} else {
 				System.err.println(newLine + "Menu Tidak Ada Yang Cocok.");
 			}
